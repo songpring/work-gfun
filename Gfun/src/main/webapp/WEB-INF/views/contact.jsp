@@ -12,13 +12,12 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="main">Gfun</a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">Gfun</a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto my-2 my-lg-0">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                         <li class="nav-item dropdown"><a class="nav-link js-scroll-trigger" href="#contact">Language</a></li>
                     </ul>
                 </div>
@@ -29,12 +28,13 @@
             <div class="container h-100">
                 <div class="row h-100 align-items-center justify-content-center text-center">
                     <div class="col-lg-10 align-self-end">
-                        <h1 class="text-uppercase text-white font-weight-bold">지펀 한국어 페이지</h1>
+                        <h1 class="text-uppercase text-white font-weight-bold">컨텍페이지</h1>
                         <hr class="divider my-4" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 font-weight-light mb-5">한국어로 소개하는 메인랜딩페이지입니다</p>
-                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">더 알아보기</a>
+                        <p class="text-white-75 font-weight-light mb-5">이메일 문의 및 지원</p>
+                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Business</a>
+                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Creator</a>
                     </div>
                 </div>
             </div>
@@ -174,7 +174,7 @@
                     </div>
                     <div class="col-lg-4 mr-auto text-center">
                         <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
-                        <a class="d-block" href="contact">gfun.corp@gmail.com</a>
+                        <a class="d-block" href="mailto:gfun.corp@gmail.com">gfun.corp@gmail.com</a>
                     </div>
                 </div>
             </div>

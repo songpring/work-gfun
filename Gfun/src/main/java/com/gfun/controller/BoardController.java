@@ -17,7 +17,7 @@ public class BoardController {
 	
 	private static final Logger logger = LoggerFactory.getLogger(BoardController.class);
 	
-
+	
 	@RequestMapping(value = "/main", method = RequestMethod.GET)
 	public String main(Locale locale, Model model) {
 		logger.info("Welcome home! The client locale is {}.", locale);
@@ -31,6 +31,21 @@ public class BoardController {
 		
 		return "main";
 	}
+	
+	@RequestMapping(value = "/contact", method = RequestMethod.GET)
+	public String contact(Locale locale, Model model) {
+		logger.info("Welcome home! The client locale is {}.", locale);
+		
+		Date date = new Date();
+		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
+		
+		String formattedDate = dateFormat.format(date);
+		
+		model.addAttribute("serverTime", formattedDate );
+		
+		return "contact";
+	}
+	
 	
 	
 	
