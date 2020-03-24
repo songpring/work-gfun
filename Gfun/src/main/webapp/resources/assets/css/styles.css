@@ -41,6 +41,13 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+
+/*민경추가 선택영역*/
+::selection {
+  color: white;
+  background: blue;
+}
+
 *,
 *::before,
 *::after {
@@ -88,6 +95,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+    text-align: center;
 }
 
 abbr[title],
@@ -165,7 +173,7 @@ a {
   background-color: transparent;
 }
 a:hover {
-  color: #d6370c;
+  color: pink;
   text-decoration: underline;
 }
 
@@ -2909,7 +2917,7 @@ fieldset:disabled a.btn {
   text-decoration: none;
 }
 .btn-link:hover {
-  color: #d6370c;
+  color: pink;
   text-decoration: underline;
 }
 .btn-link:focus, .btn-link.focus {
@@ -4588,9 +4596,11 @@ input[type=button].btn-block {
   background-color: #fff;
   border: 1px solid #dee2e6;
 }
+/*hover color #d6370c => pink */
+
 .page-link:hover {
   z-index: 2;
-  color: #d6370c;
+  color: pink;
   text-decoration: none;
   background-color: #e9ecef;
   border-color: #dee2e6;
@@ -9758,7 +9768,7 @@ button.bg-dark:focus {
 	font-family: "sofiapro-bold",PingFangSC,sans-serif;
     font-weight: 700;
     font-size: 57px;
-    line-height: 1;
+    line-height: 1.3;
     color: white;
     margin: 36px auto 0;
 }
@@ -9818,6 +9828,13 @@ button.bg-dark:focus {
   padding: 0;
   overflow: hidden;
 }
+
+
+.footer-link li {
+	float: left;
+	margin: 5px;
+}
+
 .sns-link li {
 	float: left;
 	margin: 5px;
@@ -9828,9 +9845,9 @@ button.bg-dark:focus {
 	font-family: "proxima-regular",PingFangSC,sans-serif;
     font-weight: 400;
     box-sizing: border-box;
-    width: 172px;
+    width: 80px;
     height: 36px;
-    border: 1px solid #8a8b91;
+    border: 1px solid #ffffff;
     border-radius: 2px;
     font-size: 14px;
     line-height: 36px;
@@ -9839,6 +9856,8 @@ button.bg-dark:focus {
     position: relative;
     text-align: left;
 }
+
+select option { color: black; }
 
 .language-selection-form {
 	position: absolute;
@@ -9852,8 +9871,24 @@ button.bg-dark:focus {
 
 .font-korean-content {
 	font-family: "sofiapro-medium",PingFangSC,sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 32px;
+}
+
+.font-korean-footer1 {
+	font-family: "sofiapro-medium",PingFangSC,sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 32px;
+    margin-bottom: 32px;
+}
+
+.font-korean-footer2 {
+	font-family: "sofiapro-medium",PingFangSC,sans-serif;
+    font-weight: 500;
+    font-size: 15px;
     line-height: 32px;
     margin-bottom: 32px;
 }
@@ -10126,6 +10161,7 @@ hr.light {
   padding: 6rem 0;
 }
 
+
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   background-color: #fff;
@@ -10169,6 +10205,8 @@ hr.light {
   }
   #mainNav .navbar-nav .nav-item:last-child .nav-link {
     padding-right: 0;
+    /* 민경추가 */
+    margin-right: 30px;
   }
   #mainNav.navbar-scrolled {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
@@ -10190,7 +10228,7 @@ hr.light {
 
 
 header.masthead {
-  padding-top: 10rem;
+  /*padding-top: 10rem;*/
   padding-bottom: calc(10rem - 4.5rem);
   background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(resources/assets/img/bg-masthead.jpg);
   background-position: center;

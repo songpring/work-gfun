@@ -50,7 +50,10 @@
 				<script>
 					function myFunction() {
 					  var x = document.getElementById("mySelect").value;
-						  document.getElementById("demo").innerHTML = x;
+					 	if (x == "ko")
+						  document.getElementById("demo").innerHTML = "한국어";
+           				else
+						  document.getElementById("demo").innerHTML = "English";
 					}
 				</script>
 		</div>
@@ -82,8 +85,11 @@
 		<video playsinline="playsinline" autoplay="autoplay" muted="muted"
 			loop="loop">
 			<source
-				src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4"
+				src="./resources/assets/img/video.mp4"
 				type="video/mp4">
+			<!-- <source
+				src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4"
+				type="video/mp4"> -->
 		</video>
 		<div class="container h-100">
 			<div class="d-flex h-100 text-center align-items-center">
@@ -154,7 +160,7 @@
 						src="./resources/assets/img/portfolio/thumbnails/1.jpg" alt="" />-->
 						<div class="portfolio-box-caption">
 							<div class="project-category text-white-50">Category</div>
-							<div class="project-name">멀티미디어플랫폼</div>
+							<div class="project-name font-korean-content">멀티미디어플랫폼</div>
 						</div></a>
 				</div>
 				<div class="col-lg-4 col-sm-3">
@@ -168,7 +174,7 @@
 						src="./resources/assets/img/portfolio/thumbnails/2.jpg" alt="" /> -->
 						<div class="portfolio-box-caption">
 							<div class="project-category text-white-50">Category</div>
-							<div class="project-name">글로벌 SNS 앱</div>
+							<div class="project-name font-korean-content">글로벌 SNS 앱</div>
 						</div></a>
 				</div>
 				<div class="col-lg-4 col-sm-3">
@@ -182,7 +188,7 @@
 						
 						<div class="portfolio-box-caption">
 							<div class="project-category text-white-50">Category</div>
-							<div class="project-name">크리에이터 양성</div>
+							<div class="project-name font-korean-content">크리에이터 양성</div>
 						</div></a>
 				</div>
 				<!-- <div class="col-lg-4 col-sm-6">
@@ -254,7 +260,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="map-title col-sm-12 col-md-12 col-lg-6 align-center">
-					<h2 class="mbr-section-title mbr-fonts-style font-korean-h2 display-2">Busan</h2>
+					<h2 class="mbr-section-title mbr-fonts-style font-korean-h2 display-2">부산</h2>
 					<div class="google-map">
 						<iframe
 							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3261.229110680786!2d129.1232217153714!3d35.17584176512965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356892c2ee88db9d%3A0x8cdf1e68dea77e41!2sG%20SYSTEM!5e0!3m2!1sen!2skr!4v1584631306933!5m2!1sen!2skr"
@@ -263,8 +269,7 @@
 					</div>
 				</div>
 				<div class="map-title col-sm-12 col-md-12 col-lg-6 align-center">
-					<h2 class="mbr-section-title mbr-fonts-style font-korean-h2 display-2">Map
-						2</h2>
+					<h2 class="mbr-section-title mbr-fonts-style font-korean-h2 display-2">대구</h2>
 					<div class="google-map">
 						<iframe frameborder="0" style="border: 0"
 							src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCx3d07zxHPLvkFBLlAR3Ng8a9wsAsGoJ8&amp;q=place_id:ChIJ-clx9ahZwokR7WgC_YbWZNc"
@@ -291,11 +296,11 @@
     <div class="row">
 
       <!-- Grid column -->
-      <div class="col-md-6 mt-md-0 mt-3">
+      <div class="col-md-6 mt-md-0 mt-3 font-korean-footer1">
 
         <!-- Content -->
-        <h5 class="text-uppercase">Footer Content</h5>
-        <p>Here you can use rows and columns to organize your footer content.</p>
+        <h5>Gfun</h5>
+        <p>Be you in Gfun</p>
 
       </div>
       <!-- Grid column -->
@@ -307,7 +312,7 @@
 
         <!-- Links -->
 
-        <ul class="list-unstyled">
+        <ul class="list-unstyled font-korean-footer footer-link font-korean-footer2">
           <li>
             <a href="#about">소개</a>
           </li>
