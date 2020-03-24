@@ -24,13 +24,13 @@
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto my-2 my-lg-0">
 					<li class="nav-item"><a class="nav-link js-scroll-trigger"
-						href="#about">About</a></li>
+						href="#about">소개</a></li>
 					<li class="nav-item"><a class="nav-link js-scroll-trigger"
-						href="#services">Services</a></li>
+						href="#services">서비스</a></li>
 					<li class="nav-item"><a class="nav-link js-scroll-trigger"
-						href="#portfolio">Portfolio</a></li>
+						href="#portfolio">둘러보기</a></li>
 					<li class="nav-item"><a class="nav-link js-scroll-trigger"
-						href="#contact">Contact</a></li>
+						href="#contact">연락처</a></li>
 					<!-- 
 					<li class="nav-item dropdown"><a
 						class="nav-link link text-black dropdown-toggle display-4"
@@ -97,11 +97,11 @@
 	</header>
 
 	<!-- About section-->
-	<section class="page-section bg-primary" id="about">
+	<section class="page-section2 bg-primary" id="about">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-lg-8 text-center">
-					<h2 class="text-white mt-0 font-korean-title">Gfun은 글로벌커뮤니케이션
+					<h2 class="text-white mt-0 font-korean-title2">Gfun은 글로벌커뮤니케이션
 						플랫폼을 기반으로한 멀티 엔터테인먼트 콘텐츠 서비스/마케팅, 재능있는 크리에이터들의 콘텐츠 제작을 지원합니다.</h2>
 					<hr class="divider light my-4" />
 					<p class="text-white-50 mb-4"></p>
@@ -222,9 +222,9 @@
 	<section class="page-section bg-dark text-white">
 		<div class="container text-center">
 			<h2 class="mb-4 font-korean-h2">Gfun 지원하기</h2>
-			<a class="btn btn-light2 btn-xl"
+			<a class="btn btn-light2 btn-xl btn-margin"
 				href="#">입사지원</a>
-			<a class="btn btn-light2 btn-xl" target="_blank"
+			<a class="btn btn-light2 btn-xl btn-margin" target="_blank"
 				href="http://apply.wvene.com/contactus?fbclid=IwAR21n6XIWFJDsUiAD2zfNwtVUBx0CKhnGd0M0TKkflAXUQfbpkErR8JN4IA">크리에이터지원</a>
 		</div>
 	</section>
@@ -241,11 +241,11 @@
 			<div class="row">
 				<div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
 					<i class="fas fa-phone fa-3x mb-3 text-muted"></i>
-					<div>+82 (555) 123-4567</div>
+					<div class="font-korean-content">+82 (555) 123-4567</div>
 				</div>
 				<div class="col-lg-4 mr-auto text-center">
 					<i class="fas fa-envelope fa-3x mb-3 text-muted"></i> <a
-						class="d-block" href="contact">gfun.corp@gmail.com</a>
+						class="d-block font-korean-content" href="contact">gfun.corp@gmail.com</a>
 				</div>
 			</div>
 		</div>
@@ -309,16 +309,16 @@
 
         <ul class="list-unstyled">
           <li>
-            <a href="#!">Link 1</a>
+            <a href="#about">소개</a>
           </li>
           <li>
-            <a href="#!">Link 2</a>
+            <a href="#services">서비스</a>
           </li>
           <li>
-            <a href="#!">Link 3</a>
+            <a href="#portfolio">둘러보기</a>
           </li>
           <li>
-            <a href="#!">Link 4</a>
+            <a href="#contact">연락처</a>
           </li>
         </ul>
 
@@ -330,15 +330,15 @@
 
         <!-- Links -->
 
-        <ul class="list-unstyled">
+        <ul class="list-unstyled sns-link">
           <li>
-            <a href="#"><i class="fa fa-instagram" style="font-size:36px"></i></a>
+            <a href="#" target="_blank"><span class="ico instagram"></span></a>
           </li>
           <li>
-            <a href="#"><i class="fa fa-youtube" style="font-size:36px"></i></a>
+            <a href="#" target="_blank"><span class="ico youtube"></span></a>
           </li>
           <li>
-            <a href="#"><i class="fa fa-facebook" style="font-size:36px"></i></a>
+            <a href="#" target="_blank"><span class="ico facebook"></span></a>
           </li>
         </ul>
 

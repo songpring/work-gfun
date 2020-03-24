@@ -52,6 +52,7 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-font-smoothing: antialiased; /* 민경 추가 YG*/
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -9742,6 +9743,10 @@ button.bg-dark:focus {
 }
 
 /* 민경 */
+.btn-margin {
+	margin: 3px;
+}
+
 .font-logo-text {
 	width: 100px;
     margin-left: 4px;
@@ -9757,6 +9762,16 @@ button.bg-dark:focus {
     color: white;
     margin: 36px auto 0;
 }
+.font-korean-title2 {
+	font-family: "sofiapro-bold",PingFangSC,sans-serif;
+    font-weight: 700;
+    font-size: 43PX;
+    line-height: 1.2;
+    color: white;
+    margin: 36px auto 0;
+}
+
+
 .font-korean-h2 {
 	font-family: "sofiapro-bold",PingFangSC,sans-serif;
     font-weight: 700;
@@ -9771,6 +9786,41 @@ button.bg-dark:focus {
     font-size: 24px;
     line-height: 24px;
     margin-bottom: 16px;
+}
+
+/* SNS 아이콘 */
+.ico {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 32px;
+    border: 1px solid #C8C8C8;
+    background-size: 100%;
+    background-position: top;
+}
+.ico.instagram {
+    background-image: url(https://www.ygfamily.com/images/common/ico_instagram.png);
+}
+.ico.facebook {
+    background-image: url(https://www.ygfamily.com/images/common/ico_facebook.png);
+}
+.ico.youtube {
+    background-image: url(https://www.ygfamily.com/images/common/ico_youtube.png);
+}
+
+.sns-link a:hover .instagram {
+	color: #d10869;	
+}
+
+.sns-link{
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.sns-link li {
+	float: left;
+	margin: 5px;
 }
 
 /* 언어선택 */
@@ -10071,6 +10121,10 @@ hr.light {
 .page-section {
   padding: 8rem 0;
 }
+/* 민경 그린 */
+.page-section2 {
+  padding: 6rem 0;
+}
 
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
@@ -10147,6 +10201,10 @@ header.masthead {
 header.masthead h1 {
   font-size: 2.25rem;
 }
+  .page-section2 h2 {
+  font-size: 2rem;
+  }
+  
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;
@@ -10160,7 +10218,11 @@ header.masthead h1 {
   header.masthead h1 {
     font-size: 3rem;
   }
-}
+  .page-section2 h2 {
+  font-size: 3rem;
+  }  
+
+  
 @media (min-width: 1200px) {
   header.masthead h1 {
     font-size: 3.5rem;
