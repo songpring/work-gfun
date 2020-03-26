@@ -18,7 +18,7 @@
   --red: #dc3545;
   --orange: #f4623a;
   --yellow: #ffc107;
-  --green: #28a745;
+  --green: #319a33;
   --teal: #20c997;
   --cyan: #17a2b8;
   --white: #fff;
@@ -41,7 +41,7 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-
+/* 기본컬러 green: #28a745 => #319a33 */
 /*민경추가 선택영역*/
 ::selection {
   color: white;
@@ -168,7 +168,7 @@ sup {
 }
 
 a {
-  color: #4CE135;
+  color: green;
   text-decoration: none;
   background-color: transparent;
 }
@@ -2652,7 +2652,7 @@ fieldset:disabled a.btn {
 /* 민경 버튼 */
 .btn-light2	 {
   color: white;
-  background-color: #4CE135;
+  background-color: green;
   border-color: #f8f9fa;
 }
 
@@ -6084,7 +6084,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #4CE135 !important;
+  background-color: green !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9754,7 +9754,7 @@ button.bg-dark:focus {
 
 /* 민경 */
 .btn-margin {
-	margin: 3px;
+	margin-right: 30px;
 }
 
 .font-logo-text {
@@ -9830,9 +9830,14 @@ button.bg-dark:focus {
 }
 
 
+.footer-link {
+	text-align: center;
+}
 .footer-link li {
-	float: left;
+	/*float: left;*/
 	margin: 5px;
+	/* 넣음 */
+	display: inline-block;
 }
 
 .sns-link li {
@@ -9880,7 +9885,7 @@ select option { color: black; }
 .font-korean-footer1 {
 	font-family: "sofiapro-medium",PingFangSC,sans-serif;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 32px;
     margin-bottom: 32px;
 }
@@ -9888,7 +9893,7 @@ select option { color: black; }
 .font-korean-footer2 {
 	font-family: "sofiapro-medium",PingFangSC,sans-serif;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 32px;
     margin-bottom: 32px;
 }
@@ -9922,7 +9927,7 @@ video {
 }
 
 .text-primary {
-  color: #4CE135 !important;
+  color: green !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9989,8 +9994,11 @@ a.text-dark:hover, a.text-dark:focus {
   color: #212529 !important;
 }
 
+/* font 관련 추가 - 민경 */
 .text-muted {
   color: #6c757d !important;
+	font-family: "sofiapro-medium",PingFangSC,sans-serif;
+    font-weight: 500;
 }
 
 .text-black-50 {
@@ -10133,7 +10141,7 @@ html {
 hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
-  border-color: #4CE135;
+  border-color: green;
 }
 
 hr.light {
@@ -10146,7 +10154,7 @@ hr.light {
 
 .btn-xl {
   padding: 1.25rem 2.25rem;
-  font-size: 0.95rem;
+  font-size: 1rem;
   font-weight: 700;
   text-transform: uppercase;
   border: none;
@@ -10161,6 +10169,14 @@ hr.light {
   padding: 6rem 0;
 }
 
+/* 로고 이미지 민경 */
+.logo-image {
+	width: 60px;
+}
+
+.footer-logo {
+	float: right;
+}
 
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
@@ -10286,7 +10302,7 @@ header.masthead h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: #4CE135;
+  background: green;
   transition: opacity 0.25s ease;
   text-align: center;
 }

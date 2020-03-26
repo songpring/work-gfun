@@ -2,7 +2,7 @@
 	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
 <!-- head 들어가는 곳 -->
 <jsp:include page="inc/top.jsp" />
@@ -13,8 +13,10 @@
 	<nav class="navbar navbar-expand-lg navbar-light fixed-top py-3"
 		id="mainNav">
 		<div class="container">
-			<a class="navbar-brand js-scroll-trigger font-logo-text"
-				href="main">Gfun</a>
+			<!-- <a class="navbar-brand js-scroll-trigger font-logo-text" href="main">Gfun</a> -->
+			<a class="navbar-brand js-scroll-trigger" href="main">
+				<img class="logo-image" src="./resources/assets/img/gfun_logo_web.png">
+			</a>
 			<button class="navbar-toggler navbar-toggler-right" type="button"
 				data-toggle="collapse" data-target="#navbarResponsive"
 				aria-controls="navbarResponsive" aria-expanded="false"
@@ -40,22 +42,23 @@
 			</div>
 			<div class="jsx-3914025233 jsx-1667329752 language-selection">
 				<p class="jsx-3914025233 jsx-1667329752">
-				<span class="jsx-3914025233 jsx-1667329752" id="demo">한국어</span></p>
-					<select onclick="myFunction()" id="mySelect"
-						class="jsx-3914025233 jsx-1667329752 language-selection-form">
-						<option selected="" value="ko" data-alias="ko-KR">한국어</option>
-						<option value="en" data-alias="en">English</option>
-						</select>
-				</div>
-				<script>
-					function myFunction() {
-					  var x = document.getElementById("mySelect").value;
-					 	if (x == "ko")
-						  document.getElementById("demo").innerHTML = "한국어";
-           				else
-						  document.getElementById("demo").innerHTML = "English";
-					}
-				</script>
+					<span class="jsx-3914025233 jsx-1667329752" id="demo">한국어</span>
+				</p>
+				<select onclick="myFunction()" id="mySelect"
+					class="jsx-3914025233 jsx-1667329752 language-selection-form">
+					<option selected="" value="ko" data-alias="ko-KR">한국어</option>
+					<option value="en" data-alias="en">English</option>
+				</select>
+			</div>
+			<script>
+				function myFunction() {
+					var x = document.getElementById("mySelect").value;
+					if (x == "ko")
+						document.getElementById("demo").innerHTML = "한국어";
+					else
+						document.getElementById("demo").innerHTML = "English";
+				}
+			</script>
 		</div>
 	</nav>
 	<!-- Masthead-->
@@ -84,9 +87,7 @@
 		<div class="overlay"></div>
 		<video playsinline="playsinline" autoplay="autoplay" muted="muted"
 			loop="loop">
-			<source
-				src="./resources/assets/img/video.mp4"
-				type="video/mp4">
+			<source src="./resources/assets/img/video.mp4" type="video/mp4">
 			<!-- <source
 				src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4"
 				type="video/mp4"> -->
@@ -111,7 +112,8 @@
 						플랫폼을 기반으로한 멀티 엔터테인먼트 콘텐츠 서비스/마케팅, 재능있는 크리에이터들의 콘텐츠 제작을 지원합니다.</h2>
 					<hr class="divider light my-4" />
 					<p class="text-white-50 mb-4"></p>
-					<a class="btn btn-light btn-xl js-scroll-trigger font-korean-link" href="#services">시작하기</a>
+					<a class="btn btn-light btn-xl js-scroll-trigger font-korean-link"
+						href="#services">시작하기</a>
 				</div>
 			</div>
 		</div>
@@ -152,9 +154,10 @@
 			<div class="row no-gutters">
 				<div class="col-lg-4 col-sm-3">
 					<a class="portfolio-box"
-						href="./resources/assets/img/portfolio/fullsize/1.jpg">
-						<video class="tWeCl" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" type="video/mp4" 
-						src="https://scontent-gmp1-1.cdninstagram.com/v/t50.2886-16/55698306_1250948438419737_4394175942411419648_n.mp4?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_cat=109&_nc_ohc=SoObVt2ksUoAX9dKFKC&oe=5E7B0DD9&oh=afada330c7a791e4871564223797901a"></video>
+						href="./resources/assets/img/portfolio/fullsize/1.jpg"> <video
+							class="tWeCl" playsinline="playsinline" autoplay="autoplay"
+							muted="muted" loop="loop" type="video/mp4"
+							src="https://scontent-gmp1-1.cdninstagram.com/v/t50.2886-16/55698306_1250948438419737_4394175942411419648_n.mp4?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_cat=109&_nc_ohc=SoObVt2ksUoAX9dKFKC&oe=5E7B0DD9&oh=afada330c7a791e4871564223797901a"></video>
 						<!-- <img
 						class="img-fluid"
 						src="./resources/assets/img/portfolio/thumbnails/1.jpg" alt="" />-->
@@ -165,10 +168,11 @@
 				</div>
 				<div class="col-lg-4 col-sm-3">
 					<a class="portfolio-box"
-						href="./resources/assets/img/portfolio/fullsize/2.jpg">
-						<video class="tWeCl" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" type="video/mp4" 
-						src="https://scontent-gmp1-1.cdninstagram.com/v/t50.2886-16/56017040_279517986296083_1500070852010442752_n.mp4?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_cat=107&_nc_ohc=Qh-u3X6he0wAX-Svpsr&oe=5E7ADDD8&oh=097673b5c041b1178cec521e7189c4f2"></video>
-						
+						href="./resources/assets/img/portfolio/fullsize/2.jpg"> <video
+							class="tWeCl" playsinline="playsinline" autoplay="autoplay"
+							muted="muted" loop="loop" type="video/mp4"
+							src="https://scontent-gmp1-1.cdninstagram.com/v/t50.2886-16/56017040_279517986296083_1500070852010442752_n.mp4?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_cat=107&_nc_ohc=Qh-u3X6he0wAX-Svpsr&oe=5E7ADDD8&oh=097673b5c041b1178cec521e7189c4f2"></video>
+
 						<!-- <img
 						class="img-fluid"
 						src="./resources/assets/img/portfolio/thumbnails/2.jpg" alt="" /> -->
@@ -179,13 +183,13 @@
 				</div>
 				<div class="col-lg-4 col-sm-3">
 					<a class="portfolio-box"
-						href="./resources/assets/img/portfolio/audition.jpg">
-						<!-- <img
+						href="./resources/assets/img/portfolio/audition.jpg"> <!-- <img
 						class="img-fluid"
 						src="./resources/assets/img/portfolio/audition.jpg" alt="" /> -->
-						<video class="tWeCl" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" type="video/mp4" 
-						src="https://scontent-gmp1-1.cdninstagram.com/v/t50.2886-16/57491695_1024519327752971_6809034060640288768_n.mp4?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_cat=111&_nc_ohc=Qvwshk87rQgAX8STi92&oe=5E7AD5B4&oh=98dbe190bf2a9a0c8511d2b590bdbd74"></video>
-						
+						<video class="tWeCl" playsinline="playsinline" autoplay="autoplay"
+							muted="muted" loop="loop" type="video/mp4"
+							src="https://scontent-gmp1-1.cdninstagram.com/v/t50.2886-16/57491695_1024519327752971_6809034060640288768_n.mp4?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_cat=111&_nc_ohc=Qvwshk87rQgAX8STi92&oe=5E7AD5B4&oh=98dbe190bf2a9a0c8511d2b590bdbd74"></video>
+
 						<div class="portfolio-box-caption">
 							<div class="project-category text-white-50">Category</div>
 							<div class="project-name font-korean-content">크리에이터 양성</div>
@@ -228,9 +232,8 @@
 	<section class="page-section bg-dark text-white">
 		<div class="container text-center">
 			<h2 class="mb-4 font-korean-h2">Gfun 지원하기</h2>
-			<a class="btn btn-light2 btn-xl btn-margin"
-				href="#">입사지원</a>
-			<a class="btn btn-light2 btn-xl btn-margin" target="_blank"
+			<a class="btn btn-light2 btn-xl btn-margin" href="#">입사지원</a> <a
+				class="btn btn-light2 btn-xl" target="_blank"
 				href="http://apply.wvene.com/contactus?fbclid=IwAR21n6XIWFJDsUiAD2zfNwtVUBx0CKhnGd0M0TKkflAXUQfbpkErR8JN4IA">크리에이터지원</a>
 		</div>
 	</section>
@@ -260,20 +263,23 @@
 		<div class="container">
 			<div class="row">
 				<div class="map-title col-sm-12 col-md-12 col-lg-6 align-center">
-					<h2 class="mbr-section-title mbr-fonts-style font-korean-h2 display-2">부산</h2>
+					<h2
+						class="mbr-section-title mbr-fonts-style font-korean-h2 display-2">부산</h2>
 					<div class="google-map">
 						<iframe
-							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3261.229110680786!2d129.1232217153714!3d35.17584176512965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356892c2ee88db9d%3A0x8cdf1e68dea77e41!2sG%20SYSTEM!5e0!3m2!1sen!2skr!4v1584631306933!5m2!1sen!2skr"
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3261.213071560551!2d129.12386151562475!3d35.17624158031515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568931ec370acfb%3A0xffdd07ec62664d63!2z67K97IKwZS3shLzthYDtgbTrnpjsiqTsm5AgMeywqA!5e0!3m2!1sen!2skr!4v1585197523684!5m2!1sen!2skr"
 							width="500" height="400" frameborder="0" style="border: 0;"
 							allowfullscreen="" tabindex="0"></iframe>
 					</div>
 				</div>
 				<div class="map-title col-sm-12 col-md-12 col-lg-6 align-center">
-					<h2 class="mbr-section-title mbr-fonts-style font-korean-h2 display-2">대구</h2>
+					<h2
+						class="mbr-section-title mbr-fonts-style font-korean-h2 display-2">마닐라</h2>
 					<div class="google-map">
-						<iframe frameborder="0" style="border: 0"
-							src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCx3d07zxHPLvkFBLlAR3Ng8a9wsAsGoJ8&amp;q=place_id:ChIJ-clx9ahZwokR7WgC_YbWZNc"
-							width="500" height="400" allowfullscreen="" aria-hidden="false"></iframe>
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15447.015666512694!2d121.0222044883235!3d14.55606013986439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c93a2de084f9%3A0x53c2a362134e4c95!2sWV%20entertainment!5e0!3m2!1sen!2skr!4v1585197338756!5m2!1sen!2skr"
+							width="500" height="400" frameborder="0" style="border: 0;"
+							allowfullscreen="" tabindex="0"></iframe>
 					</div>
 				</div>
 				<div class="map-placeholder">
@@ -289,77 +295,69 @@
 	</section>
 	<!-- Footer-->
 	<footer class="bg-light py-5">
- <!-- Footer Links -->
-  <div class="container-fluid text-center text-md-left">
+		<!-- Footer Links -->
+		<div class="container-fluid text-center text-md-left">
 
-    <!-- Grid row -->
-    <div class="row">
+			<!-- Grid row -->
+			<div class="row">
 
-      <!-- Grid column -->
-      <div class="col-md-6 mt-md-0 mt-3 font-korean-footer1">
+				<!-- Grid column -->
+				<div class="col-md-4 mt-md-0 mt-3 font-korean-footer1">
+				
+				<p class="footer-logo"><img class="logo-image" src="./resources/assets/img/gfun_logo_web.png"></p>
 
-        <!-- Content -->
-        <h5>Gfun</h5>
-        <p>Be you in Gfun</p>
+					<!-- Content
+					<h5>Gfun</h5>
+					<p>Be you in Gfun</p> -->
 
-      </div>
-      <!-- Grid column -->
+				</div>
+				<!-- Grid column -->
 
-      <hr class="clearfix w-100 d-md-none pb-3">
+				<hr class="clearfix w-100 d-md-none pb-3">
 
-      <!-- Grid column -->
-      <div class="col-md-3 mb-md-0 mb-3">
+				<!-- Grid column -->
+				<div class="col-md-4 mb-md-0 mb-3 font-korean-footer2">
 
-        <!-- Links -->
+					<!-- Links -->
 
-        <ul class="list-unstyled font-korean-footer footer-link font-korean-footer2">
-          <li>
-            <a href="#about">소개</a>
-          </li>
-          <li>
-            <a href="#services">서비스</a>
-          </li>
-          <li>
-            <a href="#portfolio">둘러보기</a>
-          </li>
-          <li>
-            <a href="#contact">연락처</a>
-          </li>
-        </ul>
+					<ul
+						class="list-unstyled footer-link">
+						<li><a href="#about">소개</a></li>
+						<li><a href="#services">서비스</a></li>
+						<li><a href="#portfolio">둘러보기</a></li>
+						<li><a href="#contact">연락처</a></li>
+					</ul>
 
-      </div>
-      <!-- Grid column -->
+				</div>
+				<!-- Grid column -->
 
-      <!-- Grid column -->
-      <div class="col-md-3 mb-md-0 mb-3">
+				<!-- Grid column -->
+				<div class="col-md-4 mb-md-0 mb-3">
 
-        <!-- Links -->
+					<!-- Links -->
 
-        <ul class="list-unstyled sns-link">
-          <li>
-            <a href="#" target="_blank"><span class="ico instagram"></span></a>
-          </li>
-          <li>
-            <a href="#" target="_blank"><span class="ico youtube"></span></a>
-          </li>
-          <li>
-            <a href="#" target="_blank"><span class="ico facebook"></span></a>
-          </li>
-        </ul>
+					<ul class="list-unstyled sns-link">
+						<li><a href="#" target="_blank"><span
+								class="ico instagram"></span></a></li>
+						<li><a href="#" target="_blank"><span class="ico youtube"></span></a>
+						</li>
+						<li><a href="#" target="_blank"><span
+								class="ico facebook"></span></a></li>
+					</ul>
 
-      </div>
-      <!-- Grid column -->
+				</div>
+				<!-- Grid column -->
 
-    </div>
-    <!-- Grid row -->
+			</div>
+			<!-- Grid row -->
 
-  </div>
-  <!-- Footer Links -->
+		</div>
+		<!-- Footer Links -->
 
 		<div class="container">
 
-			<div class="small text-center text-muted">Copyright © 2020 -
-				Start Bootstrap</div>
+			<div class="small text-center text-muted">© 2020 -
+				Gfun</div>
 		</div>
 	</footer>
 

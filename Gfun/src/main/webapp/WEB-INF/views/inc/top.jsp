@@ -23,3 +23,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
         <!-- Core theme JS-->
         <script src="./resources/assets/js/scripts.js"></script>
+        
+        <!-- favicon -->
+        <link rel="icon" type="image/png" href="./resources/assets/img/favicon-32x32.png" />
