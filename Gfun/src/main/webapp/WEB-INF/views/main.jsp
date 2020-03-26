@@ -157,7 +157,7 @@
 						href="./resources/assets/img/portfolio/fullsize/1.jpg"> <video
 							class="tWeCl" playsinline="playsinline" autoplay="autoplay"
 							muted="muted" loop="loop" type="video/mp4"
-							src="https://scontent-gmp1-1.cdninstagram.com/v/t50.2886-16/55698306_1250948438419737_4394175942411419648_n.mp4?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_cat=109&_nc_ohc=SoObVt2ksUoAX9dKFKC&oe=5E7B0DD9&oh=afada330c7a791e4871564223797901a"></video>
+							src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4"></video>
 						<!-- <img
 						class="img-fluid"
 						src="./resources/assets/img/portfolio/thumbnails/1.jpg" alt="" />-->
@@ -171,7 +171,7 @@
 						href="./resources/assets/img/portfolio/fullsize/2.jpg"> <video
 							class="tWeCl" playsinline="playsinline" autoplay="autoplay"
 							muted="muted" loop="loop" type="video/mp4"
-							src="https://scontent-gmp1-1.cdninstagram.com/v/t50.2886-16/56017040_279517986296083_1500070852010442752_n.mp4?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_cat=107&_nc_ohc=Qh-u3X6he0wAX-Svpsr&oe=5E7ADDD8&oh=097673b5c041b1178cec521e7189c4f2"></video>
+							src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4"></video>
 
 						<!-- <img
 						class="img-fluid"
@@ -188,7 +188,7 @@
 						src="./resources/assets/img/portfolio/audition.jpg" alt="" /> -->
 						<video class="tWeCl" playsinline="playsinline" autoplay="autoplay"
 							muted="muted" loop="loop" type="video/mp4"
-							src="https://scontent-gmp1-1.cdninstagram.com/v/t50.2886-16/57491695_1024519327752971_6809034060640288768_n.mp4?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_cat=111&_nc_ohc=Qvwshk87rQgAX8STi92&oe=5E7AD5B4&oh=98dbe190bf2a9a0c8511d2b590bdbd74"></video>
+							src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4"></video>
 
 						<div class="portfolio-box-caption">
 							<div class="project-category text-white-50">Category</div>
