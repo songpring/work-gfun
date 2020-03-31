@@ -14,8 +14,11 @@
 		id="mainNav">
 		<div class="container">
 			<!-- <a class="navbar-brand js-scroll-trigger font-logo-text" href="main">Gfun</a> -->
-			<a class="navbar-brand js-scroll-trigger" href="main">
-				<img class="logo-image" src="./resources/assets/img/gfun_logo_web.png">
+			<a class="navbar-brand js-scroll-trigger font-logo-text logo-align" href="main">
+				<!-- <p class="font-logo-text"></p> -->
+				(주)지펀
+				
+				<!-- <img class="logo-image" src="./resources/assets/img/gfun_logo_web.png"> -->
 			</a>
 			<button class="navbar-toggler navbar-toggler-right" type="button"
 				data-toggle="collapse" data-target="#navbarResponsive"
@@ -229,14 +232,31 @@
 		</div>
 	</section>
 	<!-- Call to action section-->
-	<section class="page-section bg-dark text-white">
+	<!-- <section class="page-section bg-dark text-white">
 		<div class="container text-center">
 			<h2 class="mb-4 font-korean-h2">Gfun 지원하기</h2>
+			<hr class="clearfix w-100 d-md-none pb-3">
 			<a class="btn btn-light2 btn-xl btn-margin" href="#">입사지원</a> <a
 				class="btn btn-light2 btn-xl" target="_blank"
 				href="http://apply.wvene.com/contactus?fbclid=IwAR21n6XIWFJDsUiAD2zfNwtVUBx0CKhnGd0M0TKkflAXUQfbpkErR8JN4IA">크리에이터지원</a>
 		</div>
+	</section>  -->
+	
+	<section class="page-section2 bg-dark" id="about">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-8 text-center">
+					<h2 class="text-white mt-0 font-korean-title2">Gfun 지원하기</h2>
+					<hr class="divider light my-4" />
+					<p class="text-white-50 mb-4"></p>
+					<a class="btn btn-light2 btn-xl btn-margin" href="#">입사지원</a> <a
+				class="btn btn-light2 btn-xl" target="_blank"
+				href="http://apply.wvene.com/contactus?fbclid=IwAR21n6XIWFJDsUiAD2zfNwtVUBx0CKhnGd0M0TKkflAXUQfbpkErR8JN4IA">크리에이터지원</a>
+				</div>
+			</div>
+		</div>
 	</section>
+	
 	<!-- Contact section-->
 	<section class="page-section" id="contact">
 		<div class="container">
@@ -302,9 +322,9 @@
 			<div class="row">
 
 				<!-- Grid column -->
-				<div class="col-md-4 mt-md-0 mt-3 font-korean-footer1">
+				<div class="col-md-4 mt-md-0 mt-3">
 				
-				<p class="footer-logo"><img class="logo-image" src="./resources/assets/img/gfun_logo_web.png"></p>
+				<p class="footer-logo footer-logo-text">(주)지펀</p>
 
 					<!-- Content
 					<h5>Gfun</h5>

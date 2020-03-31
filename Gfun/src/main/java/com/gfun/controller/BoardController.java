@@ -4,6 +4,7 @@ import java.text.DateFormat;
 import java.util.Date;
 import java.util.Locale;
 
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
@@ -16,6 +17,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class BoardController {
 	
 	private static final Logger logger = LoggerFactory.getLogger(BoardController.class);
+
 	
 	
 	// http://localhost:8080/web/main
@@ -46,8 +48,7 @@ public class BoardController {
 		
 		return "contact";
 	}
-	
-	
+
 	
 	
 }
